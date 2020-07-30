@@ -55,6 +55,10 @@ public class ProfilesVisabilityTests extends TestBase {
         log4j.info("Verify list icons with username: " + USERNAME);
         Assert.assertTrue(profileVisabilityPage.verifyListIcons(USERNAME), "The text on the upper right icon and on the icon on profile is not the same");
         log4j.endTestCase();
+
+
+
+        
     }
 
     @Test
